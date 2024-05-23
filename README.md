@@ -23,11 +23,15 @@ ComPPlete is developed with NVIDIA A100 GPUs with CUDA 12.0. Use the compplete_e
 
 ## data/ComPPlete_PPNI_PPI_Interactome
 
-ComPPlete interactome is available here. It contains predicted PPIs (protein-prtoein interactions) and PPNIs (protein-prtoein none interactions). 
+Two ComPPlete interactomes are available here: 
+
+(1) ComPPlete PPI (Protein-Prtoein Interactions) interactome that has 4,582,765 PPI predictions
+
+(2) ComPPlete PPNI (Protein-Prtoein None-Interactions) interactome that has 1,287,060 PPNI predictions. 
 
 ## Topological_Negatives
 
-The negatives used in training ComPPlete.
+The topological negatives obtained from contrastive-L3 approach. A total of 3,063,604 negatives between 5,037 proteins.
 
 # Models
 
@@ -44,4 +48,20 @@ Use this notebook to run ComPPlete models.
 ## interpretability
 
 This notebook offers the code to obtain binding profiles
+
+# Cite ComPPlete
+
+If you find ComPPlete useful in your research, please add the following citation:
+
+```
+@article{ComPPlete,
+  title={Topology-Driven Negative Sampling Enhances Generalizability in Protein-Protein Interaction Prediction},
+  author={Chatterjee, Ayan and Ravandi, Babak and Philip, Naomi H and Abdelmessih, Mario and Mowrey, William R and Ricchiuto, Piero and Liang, Yupu and Ding, Wei and Mobarec, Juan C and Eliassi-Rad, Tina},
+  url = {https://www.biorxiv.org/content/10.1101/2024.04.27.591478},
+  journal={bioRxiv},
+  pages={2024--04},
+  year={2024},
+}
+
+```
 
