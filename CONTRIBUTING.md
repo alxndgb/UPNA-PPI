@@ -1,0 +1,1 @@
+The project is not willing to accept contributions because it’s already finalized.
