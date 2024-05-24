@@ -21,7 +21,7 @@ ComPPlete is developed with NVIDIA A100 GPUs with CUDA 12.0. Use the compplete_e
 
 # Data
 
-## data/ComPPlete_PPNI_PPI_Interactome
+## data/ComPPlete_PPNI_PPI_Interactome/
 
 Two ComPPlete interactomes are available here: 
 
@@ -29,7 +29,7 @@ Two ComPPlete interactomes are available here:
 
 (2) ComPPlete PPNI (Protein-Prtoein None-Interactions) interactome that has 1,287,060 PPNI predictions. 
 
-## Topological_Negatives
+## Topological_Negatives/
 
 The topological negatives obtained from contrastive-L3 approach. A total of 3,063,604 negatives between 5,037 proteins.
 
@@ -45,7 +45,7 @@ Trained models.
 
 Use this notebook to run ComPPlete models.
 
-## interpretability
+## interpretability/
 
 This notebook offers the code to obtain binding profiles
 

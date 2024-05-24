@@ -4,7 +4,6 @@ __pycahce__/*
 creds
 .ipynb_checkpoints
 *.pyc
-*.pickle
 *.emb
 *.html
 
